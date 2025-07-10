@@ -1,6 +1,5 @@
 import React from 'react';
-// import image1 from '../../../assets/1752149051968.jpg';
-// import image2 from '../../../assets/IMG_20250709_225532.jpg';
+import { Typewriter } from 'react-simple-typewriter';
 import image3 from '../../../assets/IMG_20250710_184017.jpg';
 
 const Banner = () => {
@@ -12,11 +11,19 @@ const Banner = () => {
                     {/* Left Content */}
                     <div>
                         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-                            Hi, I'm <span className="text-white">Zannatin Tazri Zan</span>
+                            Hi, I'm <span className="text-cyan-300">
+                                <Typewriter
+                                    words={['Zannatin Tazri Zan', 'IT Graduate', 'MERN Stack Developer']}
+                                    loop={0}
+                                    cursor
+                                    cursorStyle="|"
+                                    typeSpeed={100}
+                                    deleteSpeed={50}
+                                    delaySpeed={1500}
+                                />
+                            </span>
                         </h1>
-                        <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 to-purple-400">
-                            Front-End Developer.
-                        </h2>
+                        
                         <p className="mt-4 text-sm md:text-base text-gray-200 leading-relaxed max-w-md">
                             A self-taught front-end developer with over 2 months of experience,
                             I build responsive and user-friendly websites & app. I focus on

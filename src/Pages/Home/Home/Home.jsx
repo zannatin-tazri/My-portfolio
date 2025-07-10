@@ -8,9 +8,10 @@ const Home = () => {
     return (
         <div className='bg-gradient-to-r from-purple-900 to-blue-600'>
             <Banner></Banner>
+            <About></About>
             <Skills></Skills>
             <Projects></Projects>
-           <About></About>
+           
         </div>
     );
 };
