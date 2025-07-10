@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -26,9 +27,21 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-900 text-white rounded-box w-52"
           >
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>
+              <ScrollLink to="about" smooth={true} duration={500} offset={-70}>
+                About Me
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="projects" smooth={true} duration={500} offset={-70}>
+                Projects
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink to="contact" smooth={true} duration={500} offset={-70}>
+                Contact
+              </ScrollLink>
+            </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl font-bold text-white">Portfolio</a>
@@ -37,9 +50,21 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-white text-lg">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li>
+            <ScrollLink to="about" smooth={true} duration={500} offset={-70}>
+              About Me
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink to="projects" smooth={true} duration={500} offset={-70}>
+              Projects
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink to="contact" smooth={true} duration={500} offset={-70}>
+              Contact
+            </ScrollLink>
+          </li>
         </ul>
       </div>
 

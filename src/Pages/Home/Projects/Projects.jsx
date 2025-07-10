@@ -12,7 +12,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-[#1a002a] to-[#0d0a2b] text-white py-16 px-4 sm:px-6 lg:px-12">
+    <section id="projects" className="min-h-screen bg-gradient-to-br from-[#1a002a] to-[#0d0a2b] text-white py-16 px-4 sm:px-6 lg:px-12">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <h2 className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400 mb-4">
