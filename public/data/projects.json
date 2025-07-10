@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Spotify Visualizer",
+    "description": "A web app for visualizing personalized Spotify data. View top artists, top tracks, recently played tracks, and more.",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/banner.PNG",
+    "links": {
+      "github": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Team Collaboration App",
+    "description": "A real-time collaboration tool designed to improve communication within remote teams using modern tech stacks.",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/banner.PNG",
+    "links": {
+      "github": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Portfolio Website",
+    "description": "A sleek, responsive portfolio website built using React and Tailwind CSS to showcase creative projects and blog posts.",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/banner.PNG",
+    "links": {
+      "github": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "id": 4,
+    "title": "E-commerce Dashboard",
+    "description": "A dashboard for e-commerce data analytics including charts, product tracking, order history, and live revenue updates.",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/banner.PNG",
+    "links": {
+      "github": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  }
+]

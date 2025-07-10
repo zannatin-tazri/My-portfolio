@@ -1,0 +1,68 @@
+[
+  {
+    "title": "HTML",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/html.png",
+    "description": "The standard language for structuring web pages.",
+    "level": "Beginner"
+  },
+  {
+    "title": "CSS",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/css.png",
+    "description": "Used to style and layout web pages visually.",
+    "level": "Beginner"
+  },
+  {
+    "title": "JavaScript",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/js.png",
+    "description": "Adds interactivity and dynamic behavior to websites.",
+    "level": "Intermediate"
+  },
+  {
+    "title": "React.js",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/react.png",
+    "description": "A JavaScript library for building fast, modern UIs.",
+    "level": "Intermediate"
+  },
+  {
+    "title": "Node.js",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/nodejs.png",
+    "description": "Used to build scalable backend services with JavaScript.",
+    "level": "Intermediate"
+  },
+  {
+    "title": "Express.js",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/ex.png",
+    "description": "A web framework for Node.js to create APIs and servers.",
+    "level": "Intermediate"
+  },
+  {
+    "title": "MongoDB",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/mongo.png",
+    "description": "A NoSQL database used for storing JSON-like data.",
+    "level": "Intermediate"
+  },
+  {
+    "title": "SQL",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/sql.png",
+    "description": "Used to manage and query relational databases.",
+    "level": "Intermediate"
+  },
+  {
+    "title": "Git & GitHub Actions",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/gac.png",
+    "description": "Version control and automation for CI/CD workflows.",
+    "level": "Intermediate"
+  },
+  {
+    "title": "Bash Scripting",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/bash.png",
+    "description": "Automates tasks and system operations via shell scripts.",
+    "level": "Intermediate"
+  },
+  {
+    "title": "Docker",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/docker.png",
+    "description": "Containerizes apps to run consistently across environments.",
+    "level": "Advanced"
+  }
+]
