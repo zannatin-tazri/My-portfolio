@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link as ScrollLink } from 'react-scroll';
+import image from '../../assets/IMG_20250709_225532.jpg'
 
 const Navbar = () => {
   return (
@@ -33,6 +34,11 @@ const Navbar = () => {
               </ScrollLink>
             </li>
             <li>
+            <ScrollLink to="skills" smooth={true} duration={500} offset={-70}>
+              Skills
+            </ScrollLink>
+          </li>
+            <li>
               <ScrollLink to="projects" smooth={true} duration={500} offset={-70}>
                 Projects
               </ScrollLink>
@@ -44,15 +50,20 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl font-bold text-white">Portfolio</a>
+        <a className="btn btn-ghost text-xl font-bold text-white">Zannatin's Portfolio</a>
       </div>
 
       {/* Desktop Menu */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-white text-lg">
+        <ul className="menu menu-horizontal px-1 text-white text-md">
           <li>
             <ScrollLink to="about" smooth={true} duration={500} offset={-70}>
               About Me
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink to="skills" smooth={true} duration={500} offset={-70}>
+              Skills
             </ScrollLink>
           </li>
           <li>
@@ -74,7 +85,7 @@ const Navbar = () => {
           <div className="w-10 rounded-full ring ring-white ring-offset-base-100 ring-offset-2">
             <img
               alt="Profile"
-              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              src={image}
             />
           </div>
         </div>

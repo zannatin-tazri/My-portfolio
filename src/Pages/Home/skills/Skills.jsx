@@ -12,7 +12,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-900 via-gray-700 to-cyan-900 py-16 px-4">
+    <div id="skills" className="min-h-screen bg-gradient-to-r from-blue-900 via-gray-700 to-cyan-900 py-16 px-4">
       {/* Animated Heading */}
       <motion.div
         className="max-w-6xl mx-auto text-center mb-12"

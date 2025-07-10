@@ -22,8 +22,7 @@ const About = () => {
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
           viewport={{ once: true, amount: 0.6 }}
         >
-          I am an IT graduate with a solid foundation in full-stack development and a growing expertise in DevOps and automation. Skilled in building dynamic web applications using the MERN stack and experienced in streamlining development workflows through CI/CD pipelines and Docker containerization. Successfully completed projects that integrate backend and frontend development with automated deployment processes. Passionate about bridging the gap between development and operations, and continuously learning cloud technologies, infrastructure as code, and scalable deployment solutions.
-        </motion.p>
+       Myself, a graduate from the IT field, with a strong foundation in full-stack development (MERN) and growing expertise in DevOps. I specialize in building dynamic web applications and optimizing workflows using CI/CD pipelines and Docker. I'm passionate about bridging development and operations while exploring cloud technologies, infrastructure as code, and scalable deployment solutions.        </motion.p>
       </div>
     </section>
   );
