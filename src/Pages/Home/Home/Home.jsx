@@ -4,6 +4,7 @@ import About from '../About/About';
 import Skills from '../skills/Skills';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import Education from '../Education/Education';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <About></About>
             <Skills></Skills>
             <Projects></Projects>
+            <Education></Education>
             <Contact></Contact>
            
         </div>
