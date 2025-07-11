@@ -22,7 +22,7 @@ const Projects = () => {
           Recent Work
         </h2>
         <p className="text-center mb-12 text-gray-300">
-          A collection of projects I've worked on.
+          A collection of projects I've done.
         </p>
 
         {/* Projects */}

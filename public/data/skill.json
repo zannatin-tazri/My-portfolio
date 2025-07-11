@@ -42,6 +42,12 @@
     "level": "Intermediate"
   },
   {
+    "title": "Firebase",
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/firebase.png",
+    "description": "Firebase is a platform that offers authentication, databases, and hosting to quickly build and scale apps.",
+    "level": "Intermediate"
+  },
+  {
     "title": "SQL",
     "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/sql.png",
     "description": "Used to manage and query relational databases.",

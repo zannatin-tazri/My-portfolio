@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
 
 const Education = () => {
   const [educationData, setEducationData] = useState([]);
 
   useEffect(() => {
-    fetch('/public/data/education.json')
+    fetch('/data/education.json')
       .then((res) => res.json())
       .then((data) => setEducationData(data));
   }, []);
@@ -18,27 +17,17 @@ const Education = () => {
         <div className="relative border-l-4 border-gray-600 ml-4">
           {educationData.map((item, index) => {
             const isEven = index % 2 === 0;
-            const animationVariant = {
-              hidden: { opacity: 0, x: isEven ? -100 : 100 },
-              visible: { opacity: 1, x: 0, transition: { duration: 0.7, ease: 'easeOut' } },
-            };
 
             return (
               <div key={index} className="mb-10 ml-4 flex flex-col md:flex-row md:items-center">
                 {/* Left card */}
                 <div className="w-full md:w-1/2 md:pr-6">
                   {isEven && (
-                    <motion.div
-                      initial="hidden"
-                      whileInView="visible"
-                      viewport={{ once: true }}
-                      variants={animationVariant}
-                      className="bg-[#ffffff0a] p-4 rounded-md shadow-md text-sm max-w-md"
-                    >
+                    <div className="bg-[#ffffff0a] p-4 rounded-md shadow-md text-sm max-w-md">
                       <h3 className="font-semibold text-base">{item.title}</h3>
                       <p className="text-gray-300">{item.institution}</p>
                       <p className="italic text-gray-400">{item.result}</p>
-                    </motion.div>
+                    </div>
                   )}
                 </div>
 
@@ -53,17 +42,11 @@ const Education = () => {
                 {/* Right card */}
                 <div className="w-full md:w-1/2 md:pl-6 mt-4 md:mt-0">
                   {!isEven && (
-                    <motion.div
-                      initial="hidden"
-                      whileInView="visible"
-                      viewport={{ once: true }}
-                      variants={animationVariant}
-                      className="bg-[#ffffff0a] p-4 rounded-md shadow-md text-sm max-w-md"
-                    >
+                    <div className="bg-[#ffffff0a] p-4 rounded-md shadow-md text-sm max-w-md">
                       <h3 className="font-semibold text-base">{item.title}</h3>
                       <p className="text-gray-300">{item.institution}</p>
                       <p className="italic text-gray-400">{item.result}</p>
-                    </motion.div>
+                    </div>
                   )}
                 </div>
               </div>
