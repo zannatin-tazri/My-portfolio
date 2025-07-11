@@ -33,7 +33,7 @@ const Contact = () => {
         <h2 className="text-4xl font-bold mb-2">
           Contact<span className="text-green-400">.</span>
         </h2>
-        <p className="text-gray-400 text-sm mb-10">Contact me or follow my social media</p>
+        <p className="text-gray-400 text-sm mb-10">Contact me or follow my social media to connect with me</p>
 
         <div className="grid grid-cols-1 shadow-4xl md:grid-cols-2 gap-4">
           {contacts.map((contact, idx) => (

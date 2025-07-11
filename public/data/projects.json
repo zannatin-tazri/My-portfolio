@@ -1,57 +1,57 @@
 [
   {
     "id": 1,
-    "title": "Spotify Visualizer",
-    "description": "A web app for visualizing personalized Spotify data. View top artists, top tracks, recently played tracks, and more.",
+    "title": "Hunt For Hire - A Job Portal Website",
+    "description": "A responsive job portal website where job seekers can search jobs, apply jobs and can find suitable jobs according to their skills. Also recruiters can post jobs on behalf their companies as website build for these two different roles. React js, Tailwind CSS, Nodejs, Express js, MongoDB and Firebase used to develop the website. Containerized with Docker and implemented CI with Github Actions.",
+    "buildWith": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase", "Docker", "GitHub Actions"],
     "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/banner.PNG",
     "links": {
-      "github": "#",
-      "twitter": "#",
-      "linkedin": "#"
+      "github": "https://github.com/zannatin-tazri/job-portal"
+      
     }
   },
   {
     "id": 2,
-    "title": "Team Collaboration App",
-    "description": "A real-time collaboration tool designed to improve communication within remote teams using modern tech stacks.",
+    "title": "Graphic Design School - A Graphic Design School Website",
+    "description": "A website for a graphic design school where admin can manage information for website as website is dynamic for admin role. React js, Tailwind CSS, Nodejs, Express js, MongoDB and Firebase used to develop the website. Containerized with Docker and implemented CI with Github Actions.",
+    "buildWith": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase", "Docker", "GitHub Actions"],
     "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/gdbanner.PNG",
     "links": {
-      "github": "#",
-      "twitter": "#",
-      "linkedin": "#"
+      "github": "https://github.com/zannatin-tazri/Graphic-design-school-client"
+      
     }
   },
   {
     "id": 3,
-    "title": "Portfolio Website",
-    "description": "A sleek, responsive portfolio website built using React and Tailwind CSS to showcase creative projects and blog posts.",
+    "title": "Chef Recipe Hunter",
+    "description": "Developed a responsive web application where users can explore food categories, view chef profiles, browse menus, show ordered food at cart and order food. Built with React.js, Node.js, and Express.js, integrating RESTful APIs for dynamic content. Used MongoDB as the database and firebase for authentication",
+    "buildWith": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase"],
     "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/chefBanner.PNG",
     "links": {
-      "github": "#",
-      "twitter": "#",
-      "linkedin": "#"
+      "github": "https://github.com/zannatin-tazri/chef-recipe-hunter-client"
+     
     }
   },
-   {
+  {
     "id": 4,
-    "title": "E-commerce Dashboard",
-    "description": "A dashboard for e-commerce data analytics including charts, product tracking, order history, and live revenue updates.",
+    "title": "Career Event",
+    "description": "Career Event is a landing page. Project built with React and Tailwind CSS, designed to showcase career-related events. Users can browse upcoming events and collect tickets with a simple, responsive interface. It’s a sleek and interactive platform for exploring career opportunities.",
+    "buildWith": ["React.js", "Tailwind CSS"],
     "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/eventBanner.PNG",
     "links": {
-      "github": "#",
-      "twitter": "#",
-      "linkedin": "#"
+      "github": "https://github.com/zannatin-tazri/Event-client"
+     
     }
   },
   {
     "id": 5,
-    "title": "E-commerce Dashboard",
-    "description": "A dashboard for e-commerce data analytics including charts, product tracking, order history, and live revenue updates.",
-    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/artBanner.PNG",
+    "title": "Furry Friends Bazar – The Ultimate Destination For Toy Lovers",
+    "description": "Furry Friends Bazar is a cozy toy shop filled with adorable furry companions. Users can view each toy’s price, ratings, buyer count, and a short, charming description. Whether for gifting or collecting, it’s the perfect place to find your next cuddly friend.",
+    "buildWith": ["React.js", "Tailwind CSS","MongoDB", "Firebase"],
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/ffbBanner.PNG",
     "links": {
-      "github": "#",
-      "twitter": "#",
-      "linkedin": "#"
+      "github": "https://github.com/zannatin-tazri/toy-marketplace-client"
+      
     }
   }
 ]

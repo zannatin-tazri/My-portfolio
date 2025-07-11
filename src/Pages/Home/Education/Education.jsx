@@ -11,7 +11,7 @@ const Education = () => {
   }, []);
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-[#1a002a] to-[#0d0a2b] text-white">
+    <section className="py-16 px-4 bg-gradient-to-r from-purple-950 via-gray-900 to-blue-950 text-white">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12">Education Timeline</h2>
 

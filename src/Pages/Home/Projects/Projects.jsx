@@ -12,7 +12,10 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects" className="min-h-screen bg-gradient-to-br from-[#1a002a] to-[#0d0a2b] text-white py-16 px-4 sm:px-6 lg:px-12">
+    <section
+      id="projects"
+      className="min-h-screen bg-gradient-to-br from-[#1a002a] to-[#0d0a2b] text-white py-16 px-4 sm:px-6 lg:px-12"
+    >
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <h2 className="text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400 mb-4">
@@ -57,46 +60,41 @@ const Projects = () => {
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true, amount: 0.3 }}
                 >
-                  <p className="text-sm text-cyan-400 font-medium mb-1">Featured Project</p>
                   <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
                   <div className="bg-[#3e2c5d] p-4 rounded-lg shadow-md text-sm leading-relaxed text-gray-200 mb-4">
-                    {project.description}
-                  </div>
-                  <div className="flex space-x-4 text-xl">
-                    {project.links.github && (
-                      <a
-                        href={project.links.github}
-                        aria-label="GitHub"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-cyan-400"
-                      >
-                        <FaGithub />
-                      </a>
-                    )}
-                    {project.links.twitter && (
-                      <a
-                        href={project.links.twitter}
-                        aria-label="Twitter"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-cyan-400"
-                      >
-                        <FaTwitter />
-                      </a>
-                    )}
-                    {project.links.linkedin && (
-                      <a
-                        href={project.links.linkedin}
-                        aria-label="LinkedIn"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-cyan-400"
-                      >
-                        <FaLinkedin />
-                      </a>
+                    <p className="mb-2">{project.description}</p>
+                    {project.buildWith && (
+                      <div className="mt-4">
+                        <p className="font-semibold text-white mb-1">
+                          Build With:
+                        </p>
+                        <ul className="flex flex-wrap gap-2 text-xs text-cyan-300">
+                          {project.buildWith.map((tech, i) => (
+                            <li
+                              key={i}
+                              className="bg-[#ffffff10] px-3 py-1 rounded-md shadow-sm"
+                            >
+                              {tech}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
                     )}
                   </div>
+                  <div className="flex space-x-4 text-sm">
+  {project.links.github && (
+    <a
+      href={project.links.github}
+      aria-label="GitHub"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 bg-[#111827] text-white px-4 py-2 rounded-md hover:bg-cyan-600 transition-colors duration-300"
+    >
+      GitHub <FaGithub className="text-lg" />
+    </a>
+  )}
+</div>
+
                 </motion.div>
               </div>
             );
