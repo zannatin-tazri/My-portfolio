@@ -23,6 +23,17 @@
   },
   {
     "id": 3,
+    "title": "Fresh Harvest",
+    "description": "Developed a responsive e-commerce web application named Fresh Harvest, where users can explore and purchase fresh organic harvests. The application features a user-friendly interface built with React.js, Tailwind CSS, and DaisyUI, ensuring a seamless experience across all devices. Users can browse harvest items by category, view detailed product information, and add items to their cart. The backend is powered by Node.js and Express.js, with MongoDB used to store product and cart data.",
+    "buildWith": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase"],
+    "image": "https://raw.githubusercontent.com/zannatin-tazri/images/main/fresh-harvest.PNG",
+    "links": {
+      "github": "https://github.com/zannatin-tazri/fresh-harvests-client"
+      
+    }
+  },
+  {
+    "id": 4,
     "title": "Chef Recipe Hunter",
     "description": "Developed a responsive web application where users can explore food categories, view chef profiles, browse menus, show ordered food at cart and order food. Built with React.js, Node.js, and Express.js, integrating RESTful APIs for dynamic content. Used MongoDB as the database and firebase for authentication",
     "buildWith": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase"],
@@ -33,7 +44,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Career Event",
     "description": "Career Event is a landing page. Project built with React and Tailwind CSS, designed to showcase career-related events. Users can browse upcoming events and collect tickets with a simple, responsive interface. It’s a sleek and interactive platform for exploring career opportunities.",
     "buildWith": ["React.js", "Tailwind CSS"],
@@ -44,7 +55,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Furry Friends Bazar – The Ultimate Destination For Toy Lovers",
     "description": "Furry Friends Bazar is a cozy toy shop filled with adorable furry companions. Users can view each toy’s price, ratings, buyer count, and a short, charming description. Whether for gifting or collecting, it’s the perfect place to find your next cuddly friend.",
     "buildWith": ["React.js", "Tailwind CSS","MongoDB", "Firebase"],
