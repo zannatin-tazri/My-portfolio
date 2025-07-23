@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import ebsImage from '../../../assets/ebs.PNG';
 import phImage from '../../../assets/ph.PNG';
 
@@ -18,8 +19,19 @@ const Certification = () => {
     }
   ];
 
+  // Animation variants
+  const imageVariants = {
+    hidden: { opacity: 0, x: -100 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.8 } }
+  };
+
+  const titleVariants = {
+    hidden: { opacity: 0, x: 100 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.8 } }
+  };
+
   return (
-    <div className=" bg-gradient-to-r from-blue-900 via-gray-700 to-cyan-900 px-4 py-8">
+    <div className="bg-gradient-to-r from-blue-900 via-gray-700 to-cyan-900 px-4 py-8">
       {/* Headline */}
       <h2 className="text-3xl font-bold text-white text-center mb-8">Certifications</h2>
 
@@ -31,14 +43,24 @@ const Certification = () => {
             id={`item${index + 1}`}
             className="carousel-item w-full flex flex-col items-center text-center"
           >
-            <img
+            <motion.img
               src={cert.image}
               alt={cert.title}
               className="w-full sm:w-3/4 md:w-1/2 rounded-lg max-h-96 object-cover"
+              variants={imageVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
             />
-            <div className="p-4">
+            <motion.div
+              className="p-4"
+              variants={titleVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
+            >
               <h3 className="text-xl text-white font-semibold mt-4">{cert.title}</h3>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>
